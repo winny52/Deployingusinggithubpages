@@ -7,14 +7,16 @@ const Home = ({ onSearch }) => {
 
   return (
     <div
-      className="h-96 bg-cover bg-center flex flex-col items-center justify-center p-4 mb-4"
+      className="  fw-full h-screen bg-cover bg-center flex flex-col items-center justify-center p-4 mb-4"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
-      <h1 className="text-4xl font-bold text-white mb-4 mt-4">
+      <h1 className="text-4xl font-bold text-blue mb-4 ">
         Welcome To Your BookFinder App
       </h1>
       <SearchBar onSearch={onSearch} />
+      
     </div>
+
   );
 };
 
