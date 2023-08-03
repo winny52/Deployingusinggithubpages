@@ -16,7 +16,6 @@ const Home = ({ onSearch }) => {
       <SearchBar onSearch={onSearch} />
       
     </div>
-
   );
 };
 
