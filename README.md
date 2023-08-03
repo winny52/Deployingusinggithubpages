@@ -19,6 +19,8 @@ Install the dependencies using npm install.
 Start the development server using npm start.
 Open your web browser and go to http://localhost:3000 to access the BookFinder app.
 
+## How to access the app 
+The application is deployed and well functioning at https://cheerful-alpaca-be09ad.netlify.app/
 
 ## Data Source
 The book data used in this app is fetched from the "https://example-data.draftbit.com/books" API. The API provides a collection of book data in JSON format.
