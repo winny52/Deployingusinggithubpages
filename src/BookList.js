@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 const BookList = ({
   books,
   showDetails,
-  selectedBook,
-  onShowD
+  selectedBook
 }) => {
   return (
     <div>
