@@ -8,7 +8,7 @@ import BookDetails from "./BookDetails";
 function App() {
   const [books, setBooks] = useState([]);
    const [showDetails, setShowDetails] = useState(false);
-   const [selectedBook, setSelectedBook] = useState(null);
+   const [selectedBook, setSelectedBook] = useState([]);
 
 
   useEffect(() => {
@@ -36,11 +36,11 @@ function App() {
     setShowDetails(true);
   };
 
-  const handleHideDetails = () => {
-    setSelectedBook(null);
-    setShowDetails(false);
-  };
-
+  // const handleHideDetails = () => {
+  //   setSelectedBook(n);
+  //   setShowDetails(false);
+  // };
+console.log(selectedBook);
   return (
     <div>
       <Navbar />
@@ -54,18 +54,15 @@ function App() {
               showDetails={showDetails}
               selectedBook={selectedBook}
               onShowDetails={handleShowDetails}
-              onHideDetails={handleHideDetails}
+            
             />
           }
         />
 
         <Route
           path="/books/:id"
-          render={({ match }) => {
-            const bookId = match.params.id;
-            const books = books.find((book) => book.id === bookId);
-            return <BookDetails books={books} />;
-          }}
+          element={<BookDetails  selectedBook={selectedBook} books={books} />}
+          
         />
       </Routes>
     </div>
