@@ -31,4 +31,7 @@ Contributions to the BookFinder app are welcome! If you find any bugs or have id
 ## License
 This project is licensed under the MIT License.
 
+## Author
+Winny Chelangat
+
 Happy reading with BookFinder! 📚
