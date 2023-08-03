@@ -14,7 +14,7 @@ const Home = ({ onSearch }) => {
         Welcome To Your BookFinder App
       </h1>
 
-      <p className="text-lg text-center">
+      <p className="text-lg  text-center">
         Discover your next favorite book with ease. BookFinder is your one-stop
         destination for finding books on various topics, genres, and interests.
         Whether you're an avid reader, a student, or just looking for your next
