@@ -44,7 +44,6 @@ function App() {
   return (
     <div>
       <Navbar />
-
       <Routes>
         <Route exact path="/" element={<Home onSearch={onSearch} />} />
         <Route
