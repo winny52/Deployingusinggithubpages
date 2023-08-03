@@ -7,14 +7,23 @@ const Home = ({ onSearch }) => {
 
   return (
     <div
-      className="  fw-full h-screen bg-cover bg-center flex flex-col items-center justify-center p-4 mb-4"
+      className="fw-full h-screen bg-cover bg-center flex flex-col items-center justify-center p-4 mb-4"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
-      <h1 className="text-4xl font-bold text-blue mb-4 ">
+      <h1 className="text-4xl font-bold text-blue mt-1">
         Welcome To Your BookFinder App
       </h1>
+
+      <p className="text-lg text-center">
+        Discover your next favorite book with ease. BookFinder is your one-stop
+        destination for finding books on various topics, genres, and interests.
+        Whether you're an avid reader, a student, or just looking for your next
+        adventure, we've got you covered.<br></br>
+        Use our powerful search bar to explore a vast collection of books from
+        renowned authors and publishers. Simply enter the book title, author, or
+        keywords, and let BookFinder do the magic.
+      </p>
       <SearchBar onSearch={onSearch} />
-      
     </div>
   );
 };
