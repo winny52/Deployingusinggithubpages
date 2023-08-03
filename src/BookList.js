@@ -6,8 +6,7 @@ const BookList = ({
   books,
   showDetails,
   selectedBook,
-  onShowDetails,
-  
+  onShowD
 }) => {
   return (
     <div>
