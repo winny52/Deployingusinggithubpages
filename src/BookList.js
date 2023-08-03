@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const BookList = ({
-  books,
-
+  books
 }) => {
   return (
     <div>
