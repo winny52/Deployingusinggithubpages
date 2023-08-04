@@ -36,10 +36,7 @@ function App() {
     setShowDetails(true);
   };
 
-  // const handleHideDetails = () => {
-  //   setSelectedBook(n);
-  //   setShowDetails(false);
-  // };
+  
 console.log(selectedBook);
   return (
     <div>
@@ -61,7 +58,7 @@ console.log(selectedBook);
 
         <Route
           path="/books/:id"
-          element={<BookDetails  selectedBook={selectedBook} books={books} />}
+          element={<BookDetails  selectedBook={books} books={books} />}
           
         />
       </Routes>
@@ -70,3 +67,5 @@ console.log(selectedBook);
 }
 
 export default App;
+
+
