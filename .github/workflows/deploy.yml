@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main 
-      
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.WELLE }}
           publish_dir: ./build
           publish_branch: gh-pages
           force_orphan: true
