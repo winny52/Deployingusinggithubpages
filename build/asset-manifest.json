@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a1f83a1.css",
-    "main.js": "/static/js/main.96fa53d9.js",
-    "index.html": "/index.html",
-    "main.9a1f83a1.css.map": "/static/css/main.9a1f83a1.css.map",
-    "main.96fa53d9.js.map": "/static/js/main.96fa53d9.js.map"
+    "main.css": "/winny52/Deployingusinggithubpages/static/css/main.b8850e47.css",
+    "main.js": "/winny52/Deployingusinggithubpages/static/js/main.eefe11f9.js",
+    "index.html": "/winny52/Deployingusinggithubpages/index.html",
+    "main.b8850e47.css.map": "/winny52/Deployingusinggithubpages/static/css/main.b8850e47.css.map",
+    "main.eefe11f9.js.map": "/winny52/Deployingusinggithubpages/static/js/main.eefe11f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1f83a1.css",
-    "static/js/main.96fa53d9.js"
+    "static/css/main.b8850e47.css",
+    "static/js/main.eefe11f9.js"
   ]
 }
