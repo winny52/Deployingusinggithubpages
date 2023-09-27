@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          deploy_key: ${{ secrets.WELLE }}
+          token: ${{ secrets.WELLE }}
           publish_branch: gh-pages
           folder: build
