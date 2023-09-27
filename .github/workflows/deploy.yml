@@ -24,10 +24,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.WELLE }}
-          publish_dir: ./build
-          publish_branch: gh-pages
-          force_orphan: true
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     deploy_key: ${{ secrets.WELLE }}
+      #     publish_dir: ./build
+      #     publish_branch: gh-pages
+      #     force_orphan: true
